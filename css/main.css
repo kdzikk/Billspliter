@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-color: rgb(204, 204, 204);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.wrapper {
+	width: 400px;
+	height: auto;
+	box-shadow: 0 0 20px #000;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-transform: uppercase;
+	height: 150px;
+	background-color: rgb(48, 138, 52);
+	color: white;
+}
+.heading h1 {
+	font-size: 24px;
+}
+.heading p {
+	margin-top: 7px;
+	font-size: 13px;
+}
+
+.content {
+	background-color: rgb(240, 248, 255);
+	padding: 25px 15px;
+}
+
+.content label {
+	display: block;
+	margin-top: 18px;
+}
+
+.content select,
+input {
+	width: 100%;
+	margin-top: 8px;
+	padding: 7px 10px;
+	background-color: rgb(255, 255, 255, 0.5);
+	border-radius: 3px;
+	border: 1px solid rgb(63, 62, 62, 0.5);
+}
+
+.btn {
+	display: block;
+	padding: 12px 80px;
+	color: white;
+	background-color: rgb(48, 138, 52);
+	margin: 30px auto 15px auto;
+	border-radius: 3px;
+	border: 1px solid rgb(63, 62, 62, 0.5);
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: rgb(49, 110, 52);
+}
+
+.cost-info {
+	display: none;
+	margin-top: 20px;
+}
+
+.cost {
+	font-weight: bold;
+}
+.error {
+	font-size: 16px;
+	color: rgb(199, 63, 29);
+	text-align: center;
+}
